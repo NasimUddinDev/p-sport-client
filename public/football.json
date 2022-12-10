@@ -1,0 +1,62 @@
+[
+    {
+        "_id": 1,
+        "team1": "netherlands",
+        "team1Flag": "https://i.ibb.co/pfshkzB/netherlands.png",
+        "team2": "argentina",
+        "team2Flag": "https://i.ibb.co/1vqKBtz/argentina.png",
+        "time": "01:00 AM",
+        "date": "10-12-22",
+        "matchs": "Quarter-finals"
+    },
+    {
+        "_id": 2,
+        "team1": "morocco",
+        "team1Flag": "https://i.ibb.co/XFGqc9p/morocco.png",
+        "team2": "portugal",
+        "team2Flag": "https://i.ibb.co/YkqNZYn/portugal.png",
+        "time": "09:00 PM",
+        "date": "10-12-22",
+        "matchs": "Quarter-finals"
+    },
+    {
+        "_id": 3,
+        "team1": "england",
+        "team1Flag": "https://i.ibb.co/km2sqBt/england.png",
+        "team2": "france",
+        "team2Flag": "https://i.ibb.co/w7sfdTg/france.png",
+        "time": "01:00 AM",
+        "date": "11-12-22",
+        "matchs": "Quarter-finals"
+    },
+    {
+        "_id": 4,
+        "team1": "argentina",
+        "team1Flag": "https://i.ibb.co/1vqKBtz/argentina.png",
+        "team2": "croatia",
+        "team2Flag": "https://i.ibb.co/znffPvR/croatia.png",
+        "time": "01:00 AM",
+        "date": "14-12-22",
+        "matchs": "Semi-finals"
+    },
+    {
+        "_id": 5,
+        "team1": "portugal",
+        "team1Flag": "https://i.ibb.co/YkqNZYn/portugal.png",
+        "team2": "france",
+        "team2Flag": "https://i.ibb.co/w7sfdTg/france.png",
+        "time": "01:00 AM",
+        "date": "15-12-22",
+        "matchs": "Semi-finals"
+    },
+    {
+        "_id": 6,
+        "team1": "portugal",
+        "team1Flag": "https://i.ibb.co/YkqNZYn/portugal.png",
+        "team2": "argentina",
+        "team2Flag": "https://i.ibb.co/1vqKBtz/argentina.png",
+        "time": "09:00 PM",
+        "date": "18-12-22",
+        "matchs": "Finals"
+    }
+]
