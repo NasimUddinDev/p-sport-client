@@ -9,9 +9,9 @@ const Header = () => {
 
   const category = (
     <>
-      <li>Football</li>
-      <li>Cricket</li>
-      <li>Handball</li>
+      <li className="mb-2">Football</li>
+      <li className="mb-2">Cricket</li>
+      <li className="mb-2">Handball</li>
     </>
   );
   const menuList = (
@@ -22,7 +22,7 @@ const Header = () => {
       <li className="hover:border-b-2  border-white dropdown dropdown-hover dropdown-bottom relative">
         <label tabIndex={0}>Category</label>
 
-        <ul tabIndex={0} className="dropdown-content menu px-4 absolute w-64 bg-red-500 top-4">
+        <ul tabIndex={0} className="dropdown-content menu px-4 absolute p-5 bg-purple-900 top-4 rounded">
           {category}
         </ul>
       </li>
@@ -35,12 +35,12 @@ const Header = () => {
     </>
   );
   return (
-    <section className="sticky top-0 z-50 w-full bg-secondary border-b border-white">
+    <section className="fixed lg:sticky top-0 z-50 w-full bg-secondary border-b border-white">
       <div className="px-4 py-2 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
-            <Image src={img}></Image>
-            <p className="text-3xl font-bold bg-gradient-to-r from-emerald-400 to-emerald-600 text-transparent bg-clip-text uppercase">
+            <Image className="h-12 w-12 md:h-16 md:w-16" src={img}></Image>
+            <p className="lg:text-3xl text-xl font-bold bg-gradient-to-r from-emerald-400 to-emerald-600 text-transparent bg-clip-text uppercase">
               P-Sport
             </p>
           </Link>
@@ -58,7 +58,7 @@ const Header = () => {
             </button>
             {isMenuOpen && (
               <div className="absolute top-0 right-0 w-1/3 ">
-                <div className="p-5 bg-primary border-0 rounded-md">
+                <div className="p-5 bg-secondary border-0 rounded-md">
                   <div className="flex items-center justify-between mb-4">
                     <div></div>
                     <div>
