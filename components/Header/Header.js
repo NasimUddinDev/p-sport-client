@@ -14,20 +14,17 @@ const Header = () => {
       <li>Handball</li>
     </>
   );
-
   const menuList = (
     <>
       <li className="hover:border-b-2 border-white">
         <Link href="/">Home</Link>
       </li>
-
       <li className="hover:border-b-2  border-white dropdown dropdown-hover dropdown-bottom relative">
         <label tabIndex={0}>Category</label>
 
         <ul tabIndex={0} className="dropdown-content menu px-4 absolute w-64 bg-red-500 top-4">
           {category}
         </ul>
-
       </li>
       <li className="hover:border-b-2 transition border-white">
         <Link href="/">Schedule</Link>
@@ -37,11 +34,8 @@ const Header = () => {
       </li>
     </>
   );
-
-  
-
   return (
-    <section className="fixed top-0 z-50 w-full bg-primary">
+    <section className="sticky top-0 z-50 w-full bg-secondary border-b border-white">
       <div className="px-4 py-2 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
