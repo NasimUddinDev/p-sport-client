@@ -5,8 +5,10 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div data-theme="light">
-      <div className="max-w-[1440px] mx-auto">Hero</div>
+    <div data-theme="mytheme" className="w-full">
+      <div className="max-w-[1440px] mx-auto">
+        
+      </div>
     </div>
   );
 }
