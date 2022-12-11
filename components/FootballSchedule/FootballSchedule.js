@@ -14,7 +14,7 @@ const FootballSchedule = () => {
             <h2 className="text-center font-bold text-2xl pb-5">
                 Football Match- 0{footballMatch.length}
             </h2>
-            <div className="grid grid-cols-2 gap-8">
+            <div className="grid md:grid-cols-2 gap-8">
                 {footballMatch.map((match) => (
                     <div
                         key={match._id}
