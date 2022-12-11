@@ -4,7 +4,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 const Banner = () => {
     return (
-        <div className='grid grid-cols-4'>
+        <div className='grid grid-cols-1 lg:grid-cols-4'>
             <div className='bg-secondary p-5'>
                 <img src="https://digitalhub.fifa.com/transform/3b5bdf8d-b9d4-4c31-bb54-adf7c059c546/Hublot-FWC2022-09-DEC?io=transform:fill&quality=75" alt="" className='w-1/2 mx-auto' />
                 <div className='flex justify-between text-white font-bold text-2xl items-center my-5'>
@@ -76,13 +76,13 @@ const Banner = () => {
             <div className='col-span-3'>
                 <Carousel autoPlay emulateTouch infiniteLoop showThumbs={false}>
                     <div>
-                        <img src="https://digitalhub.fifa.com/transform/8ee6c039-d966-4fb8-b5aa-6a64edfef317/FIFAPLS_SE_WhoToWatchEight_Main_Hero_01_V1" className='h-[600px]' />
+                        <img src="https://digitalhub.fifa.com/transform/8ee6c039-d966-4fb8-b5aa-6a64edfef317/FIFAPLS_SE_WhoToWatchEight_Main_Hero_01_V1" className='h-[250px] md:h-[450px] lg:h-[600px]' />
                     </div>
                     <div>
-                        <img src="https://assets.khelnow.com/news/uploads/2022/11/363-Khel-Now-14-copy.jpg" className='h-[600px]' />
+                        <img src="https://assets.khelnow.com/news/uploads/2022/11/363-Khel-Now-14-copy.jpg" className='h-[250px] md:h-[450px] lg:h-[600px]' />
                     </div>
                     <div>
-                        <img src="https://digitalhub.fifa.com/transform/c8ad95c8-93ae-46c3-9dd5-161189d54193/FIFAPLS_WorldCup22Analysis_01_Hero_07_Brazil_00" className='h-[600px]' />
+                        <img src="https://digitalhub.fifa.com/transform/c8ad95c8-93ae-46c3-9dd5-161189d54193/FIFAPLS_WorldCup22Analysis_01_Hero_07_Brazil_00" className='h-[250px] md:h-[450px] lg:h-[600px]' />
                     </div>
                 </Carousel>
             </div>
