@@ -22,7 +22,7 @@ const Header = () => {
       <li className="hover:border-b-2  border-white dropdown dropdown-hover dropdown-bottom relative">
         <label tabIndex={0}>Category</label>
 
-        <ul tabIndex={0} className="dropdown-content menu px-4 absolute p-5 bg-purple-900 top-4 rounded">
+        <ul tabIndex={0} className="dropdown-content menu px-4 absolute p-5 bg-gray-100 text-gray-800 top-4 rounded">
           {category}
         </ul>
       </li>
