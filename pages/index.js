@@ -2,6 +2,7 @@ import Banner from "../components/Banner/Banner";
 import CricketShedule from "../components/CricketShedule/CricketShedule";
 import FootballSchedule from "../components/FootballSchedule/FootballSchedule";
 import Header from "../components/Header/Header";
+import Footer from "./../components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <Banner></Banner>
         <FootballSchedule />
         <CricketShedule />
+        <Footer />
       </div>
     </div>
   );
