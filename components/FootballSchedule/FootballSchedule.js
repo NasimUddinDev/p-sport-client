@@ -10,7 +10,7 @@ const FootballSchedule = () => {
   }, []);
 
   return (
-    <div className="py-10">
+    <div className="py-10 w-[80%] mx-auto">
       <h2 className="text-center font-bold text-2xl pb-5">
         Football Match- 0{footballMatch.length}
       </h2>
