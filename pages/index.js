@@ -1,5 +1,4 @@
 import Banner from "../components/Banner/Banner";
-import CricketShedule from "../components/CricketShedule/CricketShedule";
 import FootballSchedule from "../components/FootballSchedule/FootballSchedule";
 import Header from "../components/Header/Header";
 import WatchLive from "../components/WatchLive/WatchLive";

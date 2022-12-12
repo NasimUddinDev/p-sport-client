@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getAllShedule } from "./../../redux/actions/sheduleAction";
+import { getAllShedule } from "../../redux/actions/sheduleAction";
 
-const CricketShedule = () => {
+const Shedules = () => {
   const { shedule, isLoading } = useSelector((state) => state);
 
   const dispatch = useDispatch();
@@ -27,7 +27,7 @@ const CricketShedule = () => {
               >
                 <div className="flex justify-between">
                   <h4 className="uppercase font-bold text-secondary">
-                    FIFA- {match.matchs}
+                    ICC- {match.matchs}
                   </h4>
                   <p className="font-bold">
                     {match.time} | {match.date}
@@ -55,4 +55,4 @@ const CricketShedule = () => {
   );
 };
 
-export default CricketShedule;
+export default Shedules;
