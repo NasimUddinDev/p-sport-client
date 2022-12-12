@@ -8,7 +8,8 @@ import img4 from '../../public/Assets/gtv.png';
 const WatchLive = () => {
   return (
     <div className="my-20 mx-5">
-      <h2 className='text-xl font-bold my-14'>Where to Watch</h2>
+      <h2 className='text-2xl font-bold text-primary mt-14'>Where to Watch</h2>
+      <div className='border-b border-primary mb-14'></div>
       <div className='grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-[80%] mx-auto'>
         <Image className=' w-32' src={img1}></Image>
         <Image className=' w-32' src={img2}></Image>
