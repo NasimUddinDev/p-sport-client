@@ -1,6 +1,7 @@
 import Banner from "../components/Banner/Banner";
 import FootballSchedule from "../components/FootballSchedule/FootballSchedule";
 import Header from "../components/Header/Header";
+import Highlights from "../components/Highlights/Highlights";
 import WatchLive from "../components/WatchLive/WatchLive";
 import Footer from "./../components/Footer/Footer";
 
@@ -12,7 +13,8 @@ export default function Home() {
         <Banner></Banner>
         <FootballSchedule />
         <CricketShedule />
-        <WatchLive/>
+        <Highlights />
+        <WatchLive />
         <Footer />
       </div>
     </div>
