@@ -28,3 +28,13 @@ a {
     background: black;
   }
 }
+
+
+.feature-news{
+  background-image: radial-gradient(103.35% 363.41% at 103.35% 70%,rgba(0,226,245,0) 0,rgba(34, 17, 57, 0.619) 26.04%,rgba(41, 5, 105, 0.715) 79.17%),url("../public//Assets//f_news.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  
+}
