@@ -8,9 +8,9 @@ export default function LatestNews() {
         Latest News
       </h2>
       {/* news */}
-      <div className="flex gap-6">
-        <a href="" className="w-[50%]">
-          <div className="feature-news  flex flex-col text-white justify-center px-6 rounded-md">
+      <div className="lg:flex gap-6">
+        <a href="" className="lg:w-[50%]">
+          <div className="feature-news h-96 lg:h-[500px]  flex flex-col text-white justify-center px-6 rounded-md">
             <h2 className="text-3xl font-bold">Mbappe v Messi</h2>
             <p>
               Statistics, head-to-head records, milestones and trivia feature as
@@ -19,7 +19,7 @@ export default function LatestNews() {
             </p>
           </div>
         </a>
-        <div className="w-[50%]">
+        <div className="lg:w-[50%] mt-6 lg:mt-0">
           <NewsCard />
           <NewsCard />
           <NewsCard />
