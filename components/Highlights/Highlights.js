@@ -3,8 +3,10 @@ import "swiper/css";
 
 const Highlights = () => {
   return (
-    <div className="py-6 mb-6">
-      <h2 className="text-2xl mb-4 font-semibold">LATEST HIGHLIGHTS</h2>
+    <div className="py-6 mb-6 mx-5">
+      <h2 className="text-2xl font-bold text-primary border-b border-primary mb-6">
+        LATEST HIGHLIGHTS
+      </h2>
 
       <div>
         <Swiper slidesPerView={3} spaceBetween={30} className="mySwiper gap-6">
